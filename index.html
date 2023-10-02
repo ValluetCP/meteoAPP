@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Météo Application</title>
+</head>
+<body>
+    
+    <!-- ici afficher le nom de la ville la température en degrés celcius, la température max, la température min, l'icone du temps qu'il fait  -->
+    <form method="post" id="formCity">
+        <input type="text" id="ville" placeholder="ville">
+        <button>localiser</button>
+    </form>
+
+    <div>
+        <h1 id="city"></h1>
+        <div><img src="" alt="" id="icon"></div>
+        <!-- <p><span id="min"></span><span id="real"></span><span id="max"></span></p> -->
+        <p id="min"></p>
+        <p id="real"></p>
+        <p id="max"></p>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
